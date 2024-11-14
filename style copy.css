@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  background:rgb(245, 243, 237);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100dvw;
+  height: 100dvh;
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+}
+.head-ever{
+  display: flex;
+  flex-direction: column;
+  width: min(31.25vw,600px);
+  width: 100%;
+  height: 100%;
+  max-height: 480px ;
+  max-width: 430px;
+  border: 3px solid;
+  border-radius: 7px;
+  
+}
+.head{
+  margin: 10px;
+  font-size: 40px;
+
+}
+.weight{
+  width: 100%;
+  margin: 10px 0;
+  height: 100%;
+  max-height: 90px;
+}
+
+.weight label{
+  font-family: "Kanit", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+}
+.height{
+  width: 100%;
+  margin: 10px 0;
+  height: 100%;
+  max-height: 90px;
+}
+
+.height label{
+  font-family: "Kanit", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+}
+.Content{  
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+.Content label{
+  font-size: 20px;
+  
+}
+.Content input {
+  width: 100%;
+  max-width: 300px;
+  height: 50px;
+  font-size: 35px;
+  justify-content: center;
+  align-content: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  border-bottom:solid 2px;
+  border-bottom-color:rgb(224, 175, 224) ;
+  outline: none;
+  font-weight: 300;
+  transition: 0.1s;
+}
+.Content input:hover{
+  border-bottom:solid 6px;
+  border-bottom-color:rgb(224, 175, 224) ;
+}
+.submit{
+  width: 100%;
+  height: 50%;
+  max-height: 62px;
+}
+button{
+  height: 50px;
+  width: 90px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 0px 0 13px 0;
+  background: rgb(242, 223, 242);
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  border: none;
+  transition: 0.3s;
+}
+button:hover{
+    cursor: pointer;
+    width: 100px;
+    height: 60px;
+}
+.rere{
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  max-height: 200px;
+}
+.rere h2{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+#total{
+  font-size: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  min-height: 20px;
+}
+#results{
+  margin: 5px;
+  font-size: 30px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  max-width: 100%;
+
+  color:rgb(241, 136, 241);
+
+}
+
+@media (width<=412px){
+  .head-ever{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+    border: 3px solid;
+    border-radius: 7px;
+    height: 100%;
+  }
+ 
+}

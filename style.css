@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  
+
+  .header{
+    border: 3px black solid;
+  }
+  
+  .head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .weight{
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .height{
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    
+  }
+  
+  .submit input {
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    background: #BEBEBE;
+    font-size: 20px;
+  }
+  
+  #results{
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border:none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    background: #BEBEBE;
+  }
+  hr{
+    background: black;
+    height: 3px;
+  }
